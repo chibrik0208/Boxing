@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>KagerBoxing</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <%= csrf_meta_tags %>
+    <%= csp_meta_tag %>
+
+    <%= stylesheet_link_tag "application", "data-turbo-track": "reload" %>
+    <%= javascript_importmap_tags %>
+  </head>
+  <body>
+  <div class='wrapper'>
+    <!-- hedder section starts -->
+    <header class="header">
+      <div class="container">
+        <div class="header-inner">
+          <%= link_to root_path, class: "logo" do %>
+            <%= image_tag 'logo5.png', style:"width: 90px; height: auto", alt: 'Logo' %>
+          <% end %>
+          <nav class="nav">
+            <ul class="nav__list">
+              <li class="nav__list-item">
+                <%= link_to "Zajęcia", "#", class: "nav__list-link" %>
+              </li>
+              <li class="nav__list-item">
+                <%= link_to "Karnety", "#", class: "nav__list-link" %>
+              </li>
+              <li class="nav__list-item">
+                <%= link_to "Kontakt", "#", class: "nav__list-link" %>
+              </li>
+            </ul>           
+          </nav>
+          <div class="navlink__list_link-login">
+            <%= link_to "Zaloguj się", "#" %>
+          </div>
+        </div>
+      </div>  
+    </header>
+    <!-- main section starts -->
+    <main class="main">
+      <%= yield %>
+    </main>
+    <!-- main section ends -->
+  </body>
+</html>

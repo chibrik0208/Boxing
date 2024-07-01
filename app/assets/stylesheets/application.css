@@ -1,0 +1,23 @@
+/*
+ *
+ *= require_tree .
+ *= require_self
+ *
+ *= require reset
+ *
+ *= require header
+ */
+
+body {
+  font-family: "Roboto", sans-serif;
+} 
+
+html, body {
+  height: 100%;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 10px;
+}
