@@ -19,10 +19,13 @@
       <div class="container">
         <div class="header-inner">
           <%= link_to root_path, class: "logo" do %>
-            <%= image_tag 'logo5.png', style:"width: 90px; height: auto", alt: 'Logo' %>
+            <%= image_tag 'logo.png', style:"width: 90px; height: auto", alt: 'Logo' %>
           <% end %>
           <nav class="nav">
             <ul class="nav__list">
+              <li class="nav__list-item">
+                <%= link_to "Home", "#", class: "nav__list-link" %>
+              </li>
               <li class="nav__list-item">
                 <%= link_to "Zajęcia", "#", class: "nav__list-link" %>
               </li>
@@ -40,6 +43,7 @@
         </div>
       </div>  
     </header>
+    <!-- Header section ends -->
     <!-- main section starts -->
     <main class="main">
       <%= yield %>
