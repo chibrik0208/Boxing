@@ -56,7 +56,7 @@
           <nav class="footer-menu">
             <ul class="footer_menu_list">
               <li class="footer__item">
-                <p class="footer__menu_title">Slovo</p>
+                <p class="footer__menu_title">O nas</p>
               </li>
               <li class="footer__item">
                 <%= link_to "chto-to", "#", class: 'footer__menu_link' %>
@@ -70,7 +70,7 @@
             </ul>
             <ul class="footer_menu_list">
               <li class="footer__item">
-                <p class="footer__menu_title">Slovo</p>
+                <p class="footer__menu_title">Prywatność</p>
               </li>
               <li class="footer__item">
                 <%= link_to "chto-to", "#", class: 'footer__menu_link' %>
@@ -84,19 +84,26 @@
             </ul>
             <ul class="footer_menu_list">
               <li class="footer__item">
-                <p class="footer__menu_title">Slovo</p>
+                <p class="footer__menu_title">Kontakt</p>
               </li>
-              <li class="footer__item">
-                <%= link_to "chto-to", "#", class: 'footer__menu_link' %>
-              </li>  
-              <li class="footer__item">
-                <%= link_to "chto-to", "#", class: 'footer__menu_link' %>
+              <li class="app__item">
+              <%= link_to root_path, class: 'app_item-link' do %>
+                <%= image_tag 'insta.png', class: 'app__item-img', alt: 'Instagram Kontakt' %>
+              <% end %>
               </li>
-              <li class="footer__item">
-                <%= link_to "chto-to", "#", class: 'footer__menu_link' %>
-              </li>       
+              <li class="app__item">
+                <%= link_to root_path, class: 'logo' do %>
+                  <%= image_tag 'telegram.svg', class: 'app__item-img', alt: 'Telegram kontakt' %>
+                <% end %>
+              </li>     
             </ul>
           </nav>
+          <div class="footer-text">
+              <p> 
+              По возможным проблемам или предложеням касаемо нашего сайта просим
+              связываться с нами по почте @что-то там, благодарим за посещение нашего сайта 
+              </p>
+            </div>
         </div>
       </div>
     </footer>
