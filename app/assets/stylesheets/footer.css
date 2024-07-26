@@ -21,7 +21,6 @@ padding-bottom: 20px;
 }
 
 .footer__item {
-
 }
 
 .footer__menu_title {
@@ -40,4 +39,22 @@ padding-bottom: 20px;
 .app__item-img {
   width:35px;
   height: 35px;
+  
+}
+
+.app__item-img:hover {
+  transform: scale(2.1);
+  transition: 0.5s;
+  box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6)
+}
+
+.footer__menu_link {
+  color: #E9BF2F;
+  border-bottom: 1px solid #444444; 
+}
+
+.footer__menu_link:hover {
+  color: white;
+  transition: 0.5s;
+  cursor: pointer;
 }
