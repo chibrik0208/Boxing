@@ -16,8 +16,9 @@
 }
 
 .footer_menu_list {
-min-width: 250px;
-padding-bottom: 20px;
+  min-width: 250px;
+  padding-bottom: 20px;
+  line-height: 1.7;
 }
 
 .footer__item {
@@ -26,7 +27,7 @@ padding-bottom: 20px;
 .footer__menu_title {
   font-size: 24px;
   font-weight: 700;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   max-width: 100px;
 }
 
@@ -43,7 +44,7 @@ padding-bottom: 20px;
 }
 
 .app__item-img:hover {
-  transform: scale(2.1);
+  transform: scale(1.7);
   transition: 0.5s;
   box-shadow: 0 8px 12px rgba(0, 0, 0, 0.6)
 }
@@ -55,6 +56,6 @@ padding-bottom: 20px;
 
 .footer__menu_link:hover {
   color: white;
-  transition: 0.5s;
+  transition: 0.4s;
   cursor: pointer;
 }

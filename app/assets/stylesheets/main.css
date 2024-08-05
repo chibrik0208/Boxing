@@ -1,0 +1,27 @@
+.main_title {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #E9BF2F;
+}
+
+.first_section {
+  background-color: #444444;
+}
+
+.main_photo1 {
+  width: 600px;
+  height: 450px;
+}
+
+.main_photo2 {
+  width: 600px;
+  height: 450px;
+}
+
+.main_photos {
+  display: flex ;
+  justify-content: center;
+  gap: 15px;
+  padding-bottom: 50px;
+}
