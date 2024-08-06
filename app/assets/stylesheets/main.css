@@ -6,7 +6,13 @@
 }
 
 .first_section {
-  background-color: #444444;
+  background-image: url('tyl.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 110vh; 
+  margin: 0; 
+  
 }
 
 .main_photo1 {
