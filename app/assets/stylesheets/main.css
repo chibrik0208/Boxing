@@ -1,18 +1,11 @@
 .main_title {
   padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center;
+  padding-bottom: 30px;
   color: #E9BF2F;
-}
-
-.first_section {
-  background-image: url('tyl.png');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 110vh; 
-  margin: 0; 
-  
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #444444 ;
 }
 
 .main_photo1 {
@@ -30,4 +23,32 @@
   justify-content: center;
   gap: 15px;
   padding-bottom: 50px;
+  padding-top: 30px;
+  background-color: #444444 ;
+}
+
+.bgc {
+  
+}
+
+.second_section {
+  background-color: #444444;
+}
+
+.about_boxing {
+  
+}
+
+.about_boxing__title {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  color: #E9BF2F;
+}
+
+.about__boxing_all {
+  background-color: white;
 }
