@@ -1,5 +1,17 @@
 .main_title {
-  padding-top: 50px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  color: #E9BF2F;
+  text-align: center;
+  background-color: #444444 ;
+  border-bottom: 2px solid #E9BF2F;
+}
+
+
+
+.main_title__boxing {
+  border-top: 2px solid #E9BF2F;
+  padding-top: 40px;
   padding-bottom: 30px;
   color: #E9BF2F;
   display: flex;
@@ -29,11 +41,7 @@
 
 .bgc {
   background-color: #444444;
-}
-
-.second_section {
-  background-color: #444444;
-
+  padding-bottom: 30px;
 }
 
 .about_boxing {
@@ -47,13 +55,14 @@
 
 .about_boxing__title {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   padding-bottom: 20px;
   padding-top: 20px;
   font-size: 20px;
   font-weight: bold;
   color: #f74f4f;
   border-top: 2px solid #E9BF2F;
+  padding-left: 450px;
 }
 
 .about__boxing_all {
