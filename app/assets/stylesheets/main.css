@@ -28,15 +28,21 @@
 }
 
 .bgc {
-  
+  background-color: #444444;
 }
 
 .second_section {
   background-color: #444444;
+
 }
 
 .about_boxing {
-  
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  color: #E9BF2F;
+  font-weight: bold;
 }
 
 .about_boxing__title {
@@ -46,9 +52,11 @@
   padding-top: 20px;
   font-size: 20px;
   font-weight: bold;
-  color: #E9BF2F;
+  color: #f74f4f;
+  border-top: 2px solid #E9BF2F;
 }
 
 .about__boxing_all {
-  background-color: white;
+  background-color: #444444;
+  border: 2px solid #E9BF2F;
 }
