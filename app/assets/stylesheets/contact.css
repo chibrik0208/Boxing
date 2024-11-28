@@ -1,6 +1,7 @@
 .contacts {
   padding-top: 7%;
   padding-bottom: 100px;
+  background: linear-gradient(to top, rgb(241, 240, 245), rgb(241, 240, 245) 50%, rgb(250, 249, 215)100%);
 }
 
 .all__contact_title {
