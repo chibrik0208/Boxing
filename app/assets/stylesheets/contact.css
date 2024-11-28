@@ -5,7 +5,7 @@
 
 .all__contact_title {
   text-align: center;
-  margin-bottom: 50px;
+  margin-bottom: 100px;
   font-size: 30px;
   font-weight: 600;
 }
@@ -14,4 +14,16 @@
   gap: 40px;
   display: grid;
   grid-template-rows: repeat(3,1fr);
+}
+
+.contact_items__content {
+  display: flex;
+  align-items: center;
+  gap: 150px;
+  border: 2px solid #151515;
+  padding: 20px 0 20px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease ;
+  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.4);
 }
