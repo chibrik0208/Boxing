@@ -5,10 +5,12 @@
 }
 
 .all__contact_title {
-  text-align: center;
+  text-align: left;
   margin-bottom: 140px;
-  font-size: 30px;
-  font-weight: 600;
+  font-size: 35px;
+  font-weight: 700;
+  border-bottom: 2px solid #E9BF2F;
+
 }
 
 .contact_list {
