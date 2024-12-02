@@ -68,25 +68,5 @@
         </p>
       </div>  
   </section>
-  <section class="blog">
-  <div class="container">
-    <div class="blog_all">
-      <div class="blog__item">
-        <%= image_tag 'blog-1.jpg', class: 'blog__item-img', alt: 'blog page 1' %>
-        <h3 class="blog__under_title">
-          Tournament Boxing 2025 in Warszaw
-        </h3>
-        <%= link_to 'more', '#', class: 'blog__item-link' %>
-      </div>
-      <div class="blog__item">
-        <%= image_tag 'blog-2.jpg', class: 'blog__item-img', alt: 'blog page 1' %>
-        <h3 class="blog__under_title">
-          McGreggor is CAME BACK?
-        </h3>
-        <%= link_to 'more', '#', class: 'blog__item-link' %>
-      </div>
-    </div>
-    <%= link_to 'SHOW MORE', '#', class: 'showmore__link' %>
-  </div>
-<section>
+  <%= render 'blog' %>
 </div>  
